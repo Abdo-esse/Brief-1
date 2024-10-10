@@ -45,41 +45,6 @@ nav ul li a:hover {
     color: #4CAF50;
 }
 
-/* Hero Section */
-#hero {
-    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
-    color: white;
-    text-align: center;
-    padding: 150px 0;
-    position: relative;
-}
-
-#hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adds a dark overlay for better text contrast */
-}
-
-#hero .container {
-    position: relative;
-    z-index: 1;
-}
-
-#hero h1 {
-    font-size: 3.5em;
-    margin-bottom: 20px;
-}
-
-#hero p {
-    font-size: 1.2em;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
 
 /* About Section */
 #about {
@@ -134,65 +99,6 @@ nav ul li a:hover {
 }
 
 
-/* Contact Section */
-#contact {
-    padding: 50px 0;
-}
-
-.contact-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.contact-form {
-    flex: 1;
-    max-width: 500px;
-}
-
-.contact-image {
-    flex: 1;
-    padding: 20px;
-}
-
-.contact-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-#contact h2 {
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-#contact form {
-    max-width: 100%;
-}
-
-#contact label {
-    display: block;
-    margin-top: 10px;
-}
-
-#contact input, #contact textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-#contact button {
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #553232;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
 
 
 /* Footer */
