@@ -25,53 +25,50 @@ nav {
     z-index: 1000;
 }
 
-nav .ul {
+nav .ull {
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-nav .ul li {
+nav .ull li {
     margin: 0 15px;
 }
 
-nav .ul li a {
+nav .ull li a {
     color: white;
     text-decoration: none;
     font-size: 1.2em;
 }
 
-nav .ul li a:hover {
+nav .ull li a:hover {
     color: #4CAF50;
 }
 
-.ul li:hover {
+.ull li:hover {
     background-color: #ddd; /* Change la couleur au survol */
 }
-.t{
+.nav{
     display: none;
     font-size: 30px;
     padding-left: 20px;
     padding-top: 15px;
 } 
-.t:hover{
+.nav:hover{
     color: #4CAF50;
     
 
 }
 
-.yy{
-    display: none;
-}
 
-@media  (max-width:600px){
-    .t{
+@media (max-width:600px){
+    .nav{
         display: flex;
     }
    
 
-    .ul{
+    .ull{
         display: none;
     }
   
@@ -81,7 +78,7 @@ nav .ul li a:hover {
 /* Hero Section */
 
 #hero {
-    background: url('/images/ggg.jpg') no-repeat center center/cover;
+    background: url('/images/Home.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 150px 0;
@@ -113,6 +110,7 @@ nav .ul li a:hover {
     max-width: 600px;
     margin: 0 auto;
 }
+
 
 
 

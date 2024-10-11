@@ -48,7 +48,7 @@ nav ul li a:hover {
 
 /* Contact Section */
 #contact {
-    background: url('/images/Ell.jpeg') no-repeat center center/cover;
+    background: url('/images/Contact.jpeg') no-repeat center center/cover;
     padding: 50px 0;
     position: relative;
 }
@@ -79,6 +79,7 @@ nav ul li a:hover {
 #contact h2 {
     text-align: left;
     margin-bottom: 20px;
+    color: white;
 }
 
 #contact form {
@@ -88,6 +89,7 @@ nav ul li a:hover {
 #contact label {
     display: block;
     margin-top: 10px;
+    color: white;
 }
 
 #contact input, #contact textarea {
