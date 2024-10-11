@@ -68,7 +68,7 @@ nav ul li a:hover {
     padding: 20px;
 }
 
-.contact-image img {
+.contact-image video {
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -78,6 +78,9 @@ nav ul li a:hover {
     text-align: left;
     margin-bottom: 20px;
 }
+ .container-contact-wrapper{
+    display: flex;
+ }
 
 #contact form {
     max-width: 100%;
@@ -99,11 +102,28 @@ nav ul li a:hover {
 #contact button {
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #553232;
+    background-color: #13cb09;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+#contact .container-contact-wrapper {
+    position: relative;
+    z-index: 1;
+    
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 505px;
 }
 
 
