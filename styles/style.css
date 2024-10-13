@@ -50,7 +50,7 @@ nav .ull li a:hover {
     background-color: #ddd; /* Change la couleur au survol */
 }
 .nav{
-    display: none;
+    display:none;
     font-size: 30px;
     padding-left: 20px;
     padding-top: 15px;
